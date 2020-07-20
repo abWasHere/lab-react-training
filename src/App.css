@@ -1,38 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.IdCard {
+  width: 500px;
+  height: 150px;
+  border: black 1px solid;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  margin: 20px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.IdCard .photo {
+  height: 100%;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-box {
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+  margin: 20px 0px;
+
+  border: black 1px solid;
+}
+
+.allCreditCards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.CreditCard {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.CreditCard .logo {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.CreditCard .bank-Logo {
+  height: 25px;
+}
+
+.CreditCard .account-nb {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.CreditCard .bank-infos {
+  display: flex;
+  font-size: 15px;
+}
+
+.CreditCard .expiration-date {
+  margin-right: 18px;
+}
+
+.CreditCard .owner {
+  margin: 0;
 }
