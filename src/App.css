@@ -72,3 +72,23 @@
 .CreditCard .owner {
   margin: 0;
 }
+.Rating,
+.LikeButtons,
+.ClickablePicture,
+.Dice {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.LikeButtons button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.Dice {
+  height: 100px;
+}

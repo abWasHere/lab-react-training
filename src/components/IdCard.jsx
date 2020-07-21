@@ -4,7 +4,7 @@ const IdCard = (props) => {
   return (
     <div className="IdCard">
       <img
-        class="photo"
+        className="photo"
         src={props.picture}
         alt={`IdCard of ${props.firstName}`}
       />
